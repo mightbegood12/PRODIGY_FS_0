@@ -5,7 +5,7 @@ export default function Header() {
   const { currentUser } = useSelector((state) => state.user);
   return (
     <div className="bg-green-300">
-      <div className="font-bold flex justify-between items-center max-w-6xl mx-auto p-3">
+      <div className="font-bold flex justify-between max-w-6xl mx-auto p-3">
         <Link to="/">
           <h1 className="font-mono">Secure Authentication App</h1>
         </Link>
